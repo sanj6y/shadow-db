@@ -1,0 +1,26 @@
+{
+  "name": "brain",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch index.ts",
+    "start": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Shadow-DB Brain - State Management and SQL Simulation",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "@hono/node-server": "^1.8.0",
+    "dotenv": "^16.6.1",
+    "hono": "^4.0.0",
+    "supermemory": "^4.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}
